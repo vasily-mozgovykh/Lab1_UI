@@ -5,12 +5,12 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SplinesCalculator", "SplinesCalculator\SplinesCalculator.vcxproj", "{7115488D-57D3-457A-A3CA-28B143A97829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplinesDataStructures", "SplinesDataStructures\SplinesDataStructures.csproj", "{2D049B65-FBBC-4CDD-8416-FA9FA48D8C98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplinesDataStructures", "SplinesDataStructures\SplinesDataStructures.csproj", "{2D049B65-FBBC-4CDD-8416-FA9FA48D8C98}"
 	ProjectSection(ProjectDependencies) = postProject
 		{7115488D-57D3-457A-A3CA-28B143A97829} = {7115488D-57D3-457A-A3CA-28B143A97829}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainUserInterface", "MainUserInterface\MainUserInterface.csproj", "{A86EC4F9-D33A-44EE-999E-676E69D882F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainUserInterface", "MainUserInterface\MainUserInterface.csproj", "{A86EC4F9-D33A-44EE-999E-676E69D882F8}"
 	ProjectSection(ProjectDependencies) = postProject
 		{2D049B65-FBBC-4CDD-8416-FA9FA48D8C98} = {2D049B65-FBBC-4CDD-8416-FA9FA48D8C98}
 	EndProjectSection
